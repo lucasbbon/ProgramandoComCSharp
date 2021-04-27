@@ -15,17 +15,13 @@ namespace CSharp.Capitulo02.GeradorSenha
                 quantidadeDigitos = ObterQuantidadedeDigitos();
 	        } while (quantidadeDigitos == 0);
 
-            string senha = "";
-            Random random = new Random();
+            Senha senha = new(quantidadeDigitos);
 
-            for (int i = 0; i < quantidadeDigitos; i++)
-                senha += random.Next(0, 9);
-
-            Console.WriteLine($"Senha gerada: {senha}");
+            Console.WriteLine($"Senha gerada: {senha.Valor}");
             Environment.Exit(0);
         }
 
-        private static Int32 ObterQuantidadedeDigitos()
+        private static int ObterQuantidadedeDigitos()
         {
             int.TryParse(Console.ReadLine(), out int quantidadeDigitos);
 
