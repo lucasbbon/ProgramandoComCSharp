@@ -22,6 +22,8 @@ namespace Fintech.Correntista.Wpf
     public partial class MainWindow : Window
     {
         public List<Cliente> Clientes { get; set; } = new List<Cliente>();
+        public Cliente ClienteSelecionado { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
@@ -33,23 +35,37 @@ namespace Fintech.Correntista.Wpf
             sexoComboBox.Items.Add(Sexo.Feminino);
             sexoComboBox.Items.Add(Sexo.Masculino);
 
+            Banco banco = new Banco();
+            banco.Nome = "Banco 1";
+            banco.Numero = 1;
+
+            bancoComboBox.Items.Add(banco);
+            bancoComboBox.Items.Add(new Banco {Nome = "Banco 2", Numero = 2 });
+
+            tipoContaComboBox.Items.Add(TipoConta.ContaCorrente);
+            tipoContaComboBox.Items.Add(TipoConta.ContaEspecial);
+            tipoContaComboBox.Items.Add(TipoConta.Poupanca);
+
             clientesDataGrid.ItemsSource = Clientes;
         }
 
         private void incluirClienteButton_Click(object sender, RoutedEventArgs e)
         {
+            //var endereco = new Endereco();
             Endereco endereco = new();
             endereco.Cep = cepTextBox.Text;
             endereco.Cidade = cidadeTextBox.Text;
             endereco.Logradouro = logradouroTextBox.Text;
             endereco.Numero = numeroTextBox.Text;
 
-            Cliente cliente = new();
+            Cliente cliente = new Cliente();
             cliente.Cpf = cpfTextBox.Text;
-            cliente.Nascimento = Convert.ToDateTime(nascimentoTextBox.Text);
+            cliente.DataNascimento = Convert.ToDateTime(dataNascimentoTextBox.Text);
             cliente.Endereco = endereco;
             cliente.Nome = nomeTextBox.Text;
             cliente.Sexo = (Sexo)sexoComboBox.SelectedItem;
+
+            //int x;
 
             Clientes.Add(cliente);
 
@@ -61,14 +77,52 @@ namespace Fintech.Correntista.Wpf
 
         private void LimparControlesCliente()
         {
-            cpfTextBox.Clear();
-            nomeTextBox.Clear();
-            nascimentoTextBox.Clear();
+            cpfTextBox.Text = "";
+            nomeTextBox.Text = string.Empty;
+            dataNascimentoTextBox.Text = null;
             sexoComboBox.SelectedIndex = -1;
             logradouroTextBox.Clear();
             numeroTextBox.Clear();
             cidadeTextBox.Clear();
             cepTextBox.Clear();
+        }
+
+        private void tipoContaComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            TipoConta tipoConta = (TipoConta)tipoContaComboBox.SelectedItem;
+
+            if (tipoConta == TipoConta.ContaEspecial)
+            {
+                limiteDockPanel.Visibility = Visibility.Visible;
+                limiteTextBox.Focus();
+            }
+            else
+            {
+                limiteDockPanel.Visibility = Visibility.Collapsed;
+                limiteTextBox.Clear();
+            }
+        }
+        
+        private void SelecionarClienteButtonClick(object sender, RoutedEventArgs e)
+        {
+            Button botaoClicado = (Button)sender;
+            object clienteSelecionado = botaoClicado.DataContext;
+
+            ClienteSelecionado = (Cliente)clienteSelecionado;
+
+            clienteTextBox.Text = $"{ClienteSelecionado.Nome} - {ClienteSelecionado.Cpf}";
+            contasTabItem.Focus();
+        }
+
+        private void incluirContaButton_Click(object sender, RoutedEventArgs e)
+        {
+            Agencia agencia = new Agencia();
+            agencia.Banco = (Banco)bancoComboBox.SelectedItem;
+            agencia.Numero = Convert.ToInt32(numeroAgenciaTextBox.Text);
+            agencia.DigitoVerificador = Convert.ToInt32(dvAgenciaTextBox.Text);
+
+            int numero = Convert.ToInt32(numeroContaTextBox.Text);
+            string digitoVerificador = dvContaTextBox.Text;
         }
     }
 }

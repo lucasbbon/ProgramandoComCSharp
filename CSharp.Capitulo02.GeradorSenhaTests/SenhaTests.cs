@@ -11,23 +11,23 @@ namespace CSharp.Capitulo02.GeradorSenha.Tests
     [TestClass()]
     public class SenhaTests
     {
-        [TestMethod()]
-        public void GerarSenhaSemParametrosDeveRetornarSenhaPadrao()
-        {
-            Senha senha = new();
-            string valor = senha.GerarSenha();
+        //[TestMethod]
+        //public void GerarSenhaSemParametrosDeveRetornarSenhaPadrao()
+        //{
+        //    var senha = new Senha();
 
+        //    var valorSenha = senha.GerarSenha();
 
-            Assert.IsTrue(valor.Length == Senha.TamanhoMinimo);
-            Assert.IsTrue(int.TryParse(valor, out int _));
+        //    Assert.IsTrue(valorSenha.Length == Senha.TamanhoMinimo);
+        //    Assert.IsTrue(int.TryParse(valorSenha, out int _));
 
-            Console.WriteLine(valor);
-        }
+        //    Console.WriteLine(valorSenha);
+        //}
 
         [TestMethod]
         public void ConstrutorPadraoDeveRetornarSenhaPadrao()
         {
-            Senha senha = new();
+            var senha = new Senha();
 
             Assert.IsTrue(senha.Valor.Length == Senha.TamanhoMinimo);
             Assert.IsTrue(int.TryParse(senha.Valor, out int _));
@@ -43,11 +43,13 @@ namespace CSharp.Capitulo02.GeradorSenha.Tests
         {
             Senha senha = new(tamanho);
 
+            //var nome = "vitor".Length;
+
             Assert.IsTrue(senha.Valor.Length == senha.Tamanho);
             Assert.IsTrue(long.TryParse(senha.Valor, out long _));
 
-            Assert.IsTrue(senha.Valor.Length <= Senha.TamanhoMaximo);
-            Assert.IsTrue(senha.Valor.Length >= Senha.TamanhoMinimo);
+            Assert.IsTrue(senha.Tamanho >= Senha.TamanhoMinimo);
+            Assert.IsTrue(senha.Tamanho <= Senha.TamanhoMaximo);
 
             Console.WriteLine(senha.Valor);
         }

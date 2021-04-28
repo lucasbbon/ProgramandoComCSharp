@@ -2,7 +2,7 @@
 {
     public enum Operacao
     {
-        Deposito,
-        Saque
+        Deposito = 1,
+        Saque = 2
     }
 }

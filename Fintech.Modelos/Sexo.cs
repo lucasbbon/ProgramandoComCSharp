@@ -1,6 +1,4 @@
-using System;
-
-namespace Fintech.Modelos
+﻿namespace Fintech.Modelos
 {
     public enum Sexo
     {

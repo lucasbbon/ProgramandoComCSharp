@@ -1,0 +1,24 @@
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\bin\Debug\net5.0\Fintech.Modelos.deps.json
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\bin\Debug\net5.0\Fintech.Modelos.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\bin\Debug\net5.0\ref\Fintech.Modelos.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\bin\Debug\net5.0\Fintech.Modelos.pdb
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.csprojAssemblyReference.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.AssemblyInfoInputs.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.AssemblyInfo.cs
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\ref\Fintech.Modelos.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.pdb
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\bin\Debug\net5.0\Fintech.Modelos.deps.json
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\bin\Debug\net5.0\Fintech.Modelos.dll
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\bin\Debug\net5.0\ref\Fintech.Modelos.dll
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\bin\Debug\net5.0\Fintech.Modelos.pdb
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.csprojAssemblyReference.cache
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.AssemblyInfoInputs.cache
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.AssemblyInfo.cs
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.dll
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\ref\Fintech.Modelos.dll
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Modelos\obj\Debug\net5.0\Fintech.Modelos.pdb

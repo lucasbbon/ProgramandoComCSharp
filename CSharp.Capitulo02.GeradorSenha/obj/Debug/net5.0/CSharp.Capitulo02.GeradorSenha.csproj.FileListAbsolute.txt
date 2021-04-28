@@ -1,0 +1,16 @@
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\bin\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.exe
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\bin\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.deps.json
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\bin\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.runtimeconfig.json
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\bin\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.runtimeconfig.dev.json
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\bin\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\bin\Debug\net5.0\ref\CSharp.Capitulo02.GeradorSenha.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\bin\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.pdb
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\obj\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.csprojAssemblyReference.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\obj\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\obj\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.AssemblyInfoInputs.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\obj\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.AssemblyInfo.cs
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\obj\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\obj\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\obj\Debug\net5.0\ref\CSharp.Capitulo02.GeradorSenha.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\obj\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.pdb
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\CSharp.Capitulo02.GeradorSenha\obj\Debug\net5.0\CSharp.Capitulo02.GeradorSenha.genruntimeconfig.cache

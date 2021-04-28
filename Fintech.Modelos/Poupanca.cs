@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Fintech.Modelos
 {
-    class Poupanca
+    public class Poupanca : Conta
     {
-
+        public decimal TaxaRendimento { get; set; }
     }
 }

@@ -1,0 +1,50 @@
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.exe
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.deps.json
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.runtimeconfig.json
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.runtimeconfig.dev.json
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\ref\Fintech.Correntista.Wpf.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.pdb
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.csprojAssemblyReference.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf_MarkupCompile.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf_MarkupCompile.lref
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.g.resources
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.AssemblyInfoInputs.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.AssemblyInfo.cs
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\ref\Fintech.Correntista.Wpf.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.pdb
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.genruntimeconfig.cache
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Modelos.dll
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Modelos.pdb
+C:\Users\Vitor Avelino\source\repos\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.csproj.CopyComplete
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.exe
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.deps.json
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.runtimeconfig.json
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.runtimeconfig.dev.json
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.dll
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\ref\Fintech.Correntista.Wpf.dll
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Correntista.Wpf.pdb
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Modelos.dll
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\bin\Debug\net5.0-windows\Fintech.Modelos.pdb
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.csprojAssemblyReference.cache
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf_MarkupCompile.cache
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf_MarkupCompile.lref
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.g.resources
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.AssemblyInfoInputs.cache
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.AssemblyInfo.cs
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.csproj.CopyComplete
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.dll
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\ref\Fintech.Correntista.Wpf.dll
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.pdb
+C:\Users\Lucas\ProgramandoComCSharp\Fintech.Correntista.Wpf\obj\Debug\net5.0-windows\Fintech.Correntista.Wpf.genruntimeconfig.cache

@@ -9,6 +9,7 @@ namespace CSharp.Capitulo01.Sintaxe
         int y = 16;
         int w = 45;
         int z = 32;
+
         public VariaveisForm()
         {
             InitializeComponent();
@@ -69,49 +70,45 @@ namespace CSharp.Capitulo01.Sintaxe
             resultadoListBox.Items.Add($"d % a = {d % a}");
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void reduzidasToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            var x = 5;
 
+            resultadoListBox.Items.Add("x = " + x);
+
+            //x = x - 3;
+            x -= 3;
+            //x = -3;
+
+            resultadoListBox.Items.Add("x = " + x);
         }
 
-        private void resultadoListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-       
-
-        private void incrementaisToolStripMenuItem_Click(object sender, EventArgs e)
+        private void incrementaisDecrementaisToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int a;
 
             a = 5;
-
             resultadoListBox.Items.Add("Exemplo de pré-incremental");
             resultadoListBox.Items.Add("a = " + a);
             resultadoListBox.Items.Add($"2 + ++a = {2 + ++a}");
             resultadoListBox.Items.Add("a = " + a);
 
             a = 5;
-
             resultadoListBox.Items.Add("Exemplo de pós-incremental");
             resultadoListBox.Items.Add("a = " + a);
             resultadoListBox.Items.Add($"2 + a++ = {2 + a++}");
             resultadoListBox.Items.Add("a = " + a);
         }
 
-        private void reduzidasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            int x = 5;
-            resultadoListBox.Items.Add("x = " + x);
-
-            x -= 3;
-
-            resultadoListBox.Items.Add("x = " + x);
-        }
-
         private void booleanasToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //if (true)
+            //{
+            //    var j = 10;
+            //}
+
+            //j = 11;
+
             ExibirVariaveis();
 
             resultadoListBox.Items.Add($"w <= x = {w <= x}");
@@ -125,27 +122,38 @@ namespace CSharp.Capitulo01.Sintaxe
             resultadoListBox.Items.Add("y = " + y);
             resultadoListBox.Items.Add("w = " + w);
             resultadoListBox.Items.Add("z = " + z);
+            
             resultadoListBox.Items.Add(new string('-', 50));
         }
 
-        private void logicaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void logicasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ExibirVariaveis();
+
             resultadoListBox.Items.Add($"w <= x || y == 16 = {w <= x || y == 16}");
             resultadoListBox.Items.Add($"x == z && x != z = {x == z && x != z}");
             resultadoListBox.Items.Add($"!(y > w) = {!(y > w)}");
-
         }
 
         private void ternariasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int ano;
-            ano = 2014;
 
+            ano = 2014;
             resultadoListBox.Items.Add($"O ano {ano} é bissexto? {(ano % 4 == 0 ? "Sim" : "Não")}.");
 
             ano = 2016;
             resultadoListBox.Items.Add($"O ano {ano} é bissexto? {(DateTime.IsLeapYear(ano) ? "Sim" : "Não")}.");
+
+            //var resposta = "";
+            //if (DateTime.IsLeapYear(ano))
+            //{
+            //    resposta = "Sim";
+            //}
+            //else
+            //{
+            //    resposta = "Não";
+            //}
         }
     }
 }

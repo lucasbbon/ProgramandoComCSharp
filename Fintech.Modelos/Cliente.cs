@@ -1,4 +1,5 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Fintech.Modelos
 {
@@ -6,10 +7,9 @@ namespace Fintech.Modelos
     {
         public string Nome { get; set; }
         public string Cpf { get; set; }
-        public DateTime Nascimento { get; set; }
+        public DateTime DataNascimento { get; set; }
         public Sexo Sexo { get; set; }
         public Endereco Endereco { get; set; }
-        public ContaCorrente ContaCorrente { get; set; }
-
+        public List<Conta> Contas { get; set; }
     }
 }
