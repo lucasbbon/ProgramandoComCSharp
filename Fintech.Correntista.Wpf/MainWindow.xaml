@@ -7,14 +7,24 @@
         mc:Ignorable="d"
         Title="Fintech Correntista" WindowState="Maximized" MinWidth="800" MinHeight="600">
     <TabControl>
-        <TabItem Header="Clientes">
+        <TabItem Header="Clientes" Name="clientesTabItem">
             <TabControl TabStripPlacement="Left">
                 <TabItem Header="Pesquisa" Name="pesquisaClienteTabItem">
                     <DataGrid x:Name="clientesDataGrid" 
-                              AutoGenerateColumns="True" 
+                              AutoGenerateColumns="False" 
                               CanUserAddRows="False"
                               IsReadOnly="True">
                         <DataGrid.Columns>
+                            <DataGridTextColumn Header="Nome" Binding="{Binding Path=Nome}"/>
+                            <DataGridTextColumn Header="CPF" Binding="{Binding Path=Cpf}"/>
+                            <DataGridTextColumn Header="Logradouro" Binding="{Binding Path=Endereco.Logradouro}"/>
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ComboBox ItemsSource="{Binding Path=Contas}" DisplayMemberPath="Numero"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
                             <DataGridTemplateColumn>
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>

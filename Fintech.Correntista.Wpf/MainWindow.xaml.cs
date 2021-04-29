@@ -89,6 +89,9 @@ namespace Fintech.Correntista.Wpf
 
         private void tipoContaComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (tipoContaComboBox.SelectedIndex == -1)
+                return;
+
             TipoConta tipoConta = (TipoConta)tipoContaComboBox.SelectedItem;
 
             if (tipoConta == TipoConta.ContaEspecial)
@@ -123,6 +126,47 @@ namespace Fintech.Correntista.Wpf
 
             int numero = Convert.ToInt32(numeroContaTextBox.Text);
             string digitoVerificador = dvContaTextBox.Text;
+
+            Conta conta = null;
+
+            switch ((TipoConta)tipoContaComboBox.SelectedItem)
+            {
+                case TipoConta.ContaCorrente:
+                    conta = new ContaCorrente(agencia, numero, digitoVerificador);
+                    break;
+                case TipoConta.ContaEspecial:
+                    var limite = Convert.ToDecimal(limiteTextBox.Text);
+                    conta = new ContaEspecial(agencia, numero, digitoVerificador, limite);
+                    //conta.Limite
+                    break;
+                case TipoConta.Poupanca:
+                    conta = new Poupanca(agencia, numero, digitoVerificador);
+                    break;
+                default:
+                    break;
+            }
+
+            //ClienteSelecionado.Contas = new List<Conta>();
+
+            ClienteSelecionado.Contas.Add(conta);
+
+            MessageBox.Show("Conta adicionada com sucesso.");
+            LimparControlesConta();
+            clientesDataGrid.Items.Refresh();
+            clientesTabItem.Focus();
+            pesquisaClienteTabItem.Focus();
+        }
+
+        private void LimparControlesConta()
+        {
+            clienteTextBox.Clear();
+            bancoComboBox.SelectedIndex = -1;
+            numeroAgenciaTextBox.Clear();
+            dvAgenciaTextBox.Clear();
+            numeroContaTextBox.Clear();
+            dvContaTextBox.Clear();
+            tipoContaComboBox.SelectedIndex = -1;
+            limiteTextBox.Clear();
         }
     }
 }
